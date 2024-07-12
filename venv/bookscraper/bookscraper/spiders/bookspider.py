@@ -6,7 +6,7 @@ class BookspiderSpider(scrapy.Spider):
     allowed_domains = ["books.toscrape.com"]
     start_urls = ["https://books.toscrape.com"]
     page_count = 0  # Initialize a counter for the number of pages visited
-    max_pages = 1  # Maximum number of pages to scrape
+    max_pages = 1000  # Maximum number of pages to scrape
 
     def parse(self, response):
         if self.page_count < self.max_pages:
