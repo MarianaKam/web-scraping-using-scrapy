@@ -1,5 +1,8 @@
 # web-scraping-using-scrapy
 
+spyder definition : 
+venv/bookscraper/bookscraper/spiders/bookspider.py
+
 
 scraping result : 
 venv/bookscraper/bookscraper/mariana_bookscraper.csv
